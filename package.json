@@ -1,0 +1,29 @@
+{
+    "name": "template",
+    "packageManager": "yarn@3.1.1",
+    "prettier": {
+        "arrowParens": "always",
+        "bracketSpacing": true,
+        "embeddedLanguageFormatting": "auto",
+        "endOfLine": "lf",
+        "htmlWhitespaceSensitivity": "css",
+        "insertPragma": false,
+        "jsxBracketSameLine": true,
+        "jsxSingleQuote": false,
+        "printWidth": 80,
+        "proseWrap": "preserve",
+        "quoteProps": "as-needed",
+        "requirePragma": false,
+        "useTabs": false,
+        "trailingComma": "es5",
+        "tabWidth": 4,
+        "semi": false,
+        "singleQuote": true
+    },
+    "scripts": {
+        "pretty": "yarn prettier --write package.json"
+    },
+    "devDependencies": {
+        "prettier": "2.5.1"
+    }
+}
